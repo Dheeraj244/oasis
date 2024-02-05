@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333333; 
+}
+header {
+    text-align: center;
+    background-color: #B34D00; 
+    color: #FFFFFF; 
+    margin: 50px;
+}
+p{
+    font-size: 20px;
+}
+
+
+#main {
+    padding: 20px; 
+}
+
+article {
+    margin-bottom: 30px; 
+}
+
+h2{
+    color: #B34D00; 
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr{
+    margin: 10px;
+}
