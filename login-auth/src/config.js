@@ -8,8 +8,6 @@ connect.then(()=>{
 .catch(()=>{
     console.log("Database could not be connected");
 });
-
-// Schema creation 
 const LoginSchema = new mongoose.Schema({
   name:{
     type:String,

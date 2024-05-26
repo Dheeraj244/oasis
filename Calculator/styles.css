@@ -12,7 +12,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #000000, #e0e3eb);
+  background: linear-gradient(to right, #2E3192, #1BFFFF);
+  /* background-color: #c8b5ff; */
 }
 
 .container {
@@ -21,7 +22,8 @@ body {
   width: 100%;
   border-radius: 12px;
   padding: 10px 20px 20px;
-  background: linear-gradient(to right, #ffffff, #f0f3fb);
+  /* background: linear-gradient(to right, #ffffff, #f0f3fb); */
+  background-color: #579fe2;
   box-shadow: 0 5px 10px rgba(13, 13, 13, 0.05);
 }
 
@@ -49,7 +51,7 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 
 .buttons button:active {

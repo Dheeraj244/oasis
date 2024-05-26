@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll("button");
 let output = "";
 
 const calculate = (btnValue) => {
-  display.focus();
+  // display.focus();
   
   switch (btnValue) {
     case "=":

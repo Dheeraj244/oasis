@@ -46,7 +46,6 @@ app.post("/login", async (req, res) => {
         if (!check) {
             res.send("User name cannot found")
         }
-        // Compare the hashed password from the database with the plaintext password
         const isPasswordMatch = await bcrypt.compare(req.body.password, check.password);
         if (!isPasswordMatch) {
             res.send("wrong Password");
